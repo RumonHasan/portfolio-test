@@ -1,0 +1,15 @@
+/* corona project designs */
+
+.corona-project-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.corona-project-container {
+  display: grid;
+  place-items: center;
+  max-width: 1170px;
+}

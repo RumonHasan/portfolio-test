@@ -1,0 +1,47 @@
+/* main body background designs */
+
+html,
+body {
+  cursor: none;
+  overscroll-behavior: none;
+}
+* {
+  cursor: none;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("./Components/ProjectSection/ProjectImages/projectbg.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: auto;
+  z-index: -1;
+}
+
+/* cursor designs */
+.main-cursor {
+  z-index: 1000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate(0, 0, 0);
+  position: fixed;
+  background-color: hsl(209, 34%, 30%);
+  opacity: 0.7;
+}
+
+/* main preloader animation */
+
+.preloader-animation-main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 190px;
+  height: 190px;
+}
